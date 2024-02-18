@@ -2,6 +2,9 @@
 title: "Developer Utilities"
 ---
 
+The following Python packages provide functionality widely usable by packages across the ecosystem.
+Also see to the [Scientific Python Developer Guide](https://learn.scientific-python.org/development/).
+
 - [lazy_loader](https://github.com/scientific-python/lazy_loader/)
 
   Implements lazy loading as described in [SPEC1](https://scientific-python.org/specs/spec-0001/).
