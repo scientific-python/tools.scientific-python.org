@@ -2,22 +2,24 @@
 title: Tools & Services
 ---
 
-We maintain a collection of tools, small and large, that help projects across the ecosystem.
-We also list a few hosted services provided for the community.
+# Community Tools & Services
+
+We maintain a collection of tools that help projects across the ecosystem.
+We also offer a small selection of hosted services.
 
 {{< grid columns="1 1 1 5" >}}
 
 {{< card >}}
-title = 'Web Theme'
+title = 'For Web'
 link = 'https://theme.scientific-python.org'
 body = '''
-[Hugo](https://gohugo.io/) theme used by [NumPy](https://numpy.org/), [SciPy](https://scipy.org/),
+A [Hugo](https://gohugo.io/) theme used by [NumPy](https://numpy.org/), [SciPy](https://scipy.org/),
 [Scientific Python](https://scientific-python.org/), and other sites.
 '''
 {{< /card >}}
 
 {{< card >}}
-title = 'Developer utilities'
+title = 'For Development'
 link = '/utilities'
 body = '''
 Python developer tools used by packages across the ecosystem.
@@ -25,32 +27,32 @@ Python developer tools used by packages across the ecosystem.
 {{< /card >}}
 
 {{< card >}}
-title = 'Community & organization'
+title = 'For Organization'
 link = '/community'
 body = '''
-...
+Calender, forum, and other services for organization the community.
 '''
 {{< /card >}}
 
 {{< card >}}
-title = 'Analytics'
+title = 'For Insight'
 link = '/analytics'
 body = '''
-...
+Through analytics, better understand project development and community health.
 '''
 {{< /card >}}
 
 {{< card >}}
-title = 'GitHub Actions'
+title = 'For GitHub'
 link = '/actions'
 body = '''
-...
+Actions for automating various aspects of project development.
 '''
 {{< /card >}}
 
 {{< /grid >}}
 
-## New tools
+### New tools
 
 If you have an existing tool that you would like to host and maintain as part of the Scientific Python project,
 please [create a New Topic](https://discuss.scientific-python.org/new-topic?category=contributor&tags=propose)
