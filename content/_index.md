@@ -30,7 +30,7 @@ Python developer tools used by packages across the ecosystem.
 title = 'For Organization'
 link = '/community'
 body = '''
-Calender, forum, and other services for organization the community.
+Calendar, forum, and other services for organizing the community.
 '''
 {{< /card >}}
 
@@ -46,7 +46,7 @@ Through analytics, better understand project development and community health.
 title = 'For GitHub'
 link = '/actions'
 body = '''
-Actions for automating various aspects of project development.
+GitHub Actions for automating various aspects of project development.
 '''
 {{< /card >}}
 
