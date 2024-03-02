@@ -38,7 +38,7 @@ Calendar, forum, and other services for organizing the community.
 title = 'For Insight'
 link = '/analytics'
 body = '''
-Through analytics, better understand project development and community health.
+Through analytics, to better understand project development and community health.
 '''
 {{< /card >}}
 
