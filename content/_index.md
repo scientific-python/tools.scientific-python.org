@@ -1,5 +1,5 @@
 ---
-title: Tools & Services
+title:
 ---
 
 # Community Tools & Services

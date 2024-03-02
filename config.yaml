@@ -1,5 +1,5 @@
 baseURL: "https://tools.scientific-python.org/"
-title: "Scientific Python Tools and Services"
+title: "Tools"
 theme: scientific-python-hugo-theme
 relativeURLs: true
 disableKinds: ["term", "taxonomy"]
