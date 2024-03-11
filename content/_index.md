@@ -7,50 +7,50 @@ title:
 We maintain a collection of tools that help projects across the ecosystem.
 We also offer a small selection of hosted services.
 
-{{< grid columns="1 1 1 5" >}}
+{{< grid1 columns="1 1 1 5" >}}
 
-{{< card >}}
+[[item]]
+type = 'card'
 title = 'For Web'
 link = 'https://theme.scientific-python.org'
 body = '''
 A [Hugo](https://gohugo.io/) theme used by [NumPy](https://numpy.org/), [SciPy](https://scipy.org/),
 [Scientific Python](https://scientific-python.org/), and other sites.
 '''
-{{< /card >}}
 
-{{< card >}}
+[[item]]
+type = 'card'
 title = 'For Development'
 link = '/utilities'
 body = '''
 Python developer tools used by packages across the ecosystem.
 '''
-{{< /card >}}
 
-{{< card >}}
+[[item]]
+type = 'card'
 title = 'For Organization'
 link = '/community'
 body = '''
 Calendar, forum, and other services for organizing the community.
 '''
-{{< /card >}}
 
-{{< card >}}
+[[item]]
+type = 'card'
 title = 'For Insight'
 link = '/analytics'
 body = '''
 Through analytics, to better understand project development and community health.
 '''
-{{< /card >}}
 
-{{< card >}}
+[[item]]
+type = 'card'
 title = 'For GitHub'
 link = '/actions'
 body = '''
 GitHub Actions for automating various aspects of project development.
 '''
-{{< /card >}}
 
-{{< /grid >}}
+{{< /grid1 >}}
 
 ### New tools
 
