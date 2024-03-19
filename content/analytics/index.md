@@ -2,7 +2,7 @@
 title: "Analytics"
 ---
 
-{{< grid1 columns="1 2 2 2" >}}
+{{< grid columns="1 2 2 2" >}}
 
 [[item]]
 type = 'card'
@@ -20,4 +20,4 @@ You can [enable this service](https://pydata-sphinx-theme.readthedocs.io/en/late
 in your pydata-sphinx-theme settings.
 '''
 
-{{< /grid1 >}}
+{{< /grid >}}

@@ -5,7 +5,7 @@ title: "Developer Utilities"
 The following Python packages provide functionality widely usable by packages across the ecosystem.
 Also see to the [Scientific Python Developer Guide](https://learn.scientific-python.org/development/).
 
-{{< grid1 columns="1 2 2 3" >}}
+{{< grid columns="1 2 2 3" >}}
 
 [[item]]
 type = 'card'
@@ -44,4 +44,4 @@ body = '''
 A tool for automating release notes.
 '''
 
-{{< /grid1 >}}
+{{< /grid >}}
