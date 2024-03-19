@@ -7,7 +7,7 @@ title:
 We maintain a collection of tools that help projects across the ecosystem.
 We also offer a small selection of hosted services.
 
-{{< grid1 columns="1 1 1 5" >}}
+{{< grid columns="1 1 1 5" >}}
 
 [[item]]
 type = 'card'
@@ -50,7 +50,7 @@ body = '''
 GitHub Actions for automating various aspects of project development.
 '''
 
-{{< /grid1 >}}
+{{< /grid >}}
 
 ### New tools
 

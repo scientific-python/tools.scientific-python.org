@@ -4,7 +4,7 @@ title: "GitHub Actions"
 
 The following GitHub actions provide workflows that simplify various developer tasks.
 
-{{< grid1 columns="1 2 2 3" >}}
+{{< grid columns="1 2 2 3" >}}
 
 [[item]]
 type = 'card'
@@ -48,4 +48,4 @@ body = '''
 Manage teams and team membership for the Scientific Python GitHub organization.
 '''
 
-{{< /grid1 >}}
+{{< /grid >}}

@@ -2,7 +2,7 @@
 title: "Community & organization"
 ---
 
-{{< grid1 columns="1 2 2 3" >}}
+{{< grid columns="1 2 2 3" >}}
 
 [[item]]
 type = 'card'
@@ -26,4 +26,4 @@ body = '''
 A GPG-based password vault. See also [SPEC 6](https://github.com/scientific-python/specs/pull/168).
 '''
 
-{{< /grid1 >}}
+{{< /grid >}}
