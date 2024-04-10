@@ -1,7 +1,6 @@
 baseURL: "https://tools.scientific-python.org/"
 title: "Tools"
 theme: scientific-python-hugo-theme
-relativeURLs: true
 disableKinds: ["term", "taxonomy"]
 
 markup:
