@@ -16,7 +16,6 @@ params:
     image: logo.svg
     text: Scientific Python Tools and Services
     link: /
-  navbarlogoshow: true
   navbar:
     - title: Home
       url: https://scientific-python.org/
