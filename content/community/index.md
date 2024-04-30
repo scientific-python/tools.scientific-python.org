@@ -22,6 +22,7 @@ Also see the [Scientific Python blog](https://blog.scientific-python.org).
 
 [[item]]
 type = 'card'
+header = '[vault-template](https://github.com/scientific-python/vault-template)'
 body = '''
 A GPG-based password vault. See also [SPEC 6](https://github.com/scientific-python/specs/pull/168).
 '''
