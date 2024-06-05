@@ -48,4 +48,11 @@ body = '''
 Manage teams and team membership for the Scientific Python GitHub organization.
 '''
 
+[[item]]
+type = 'card'
+header = '[circleci-artifacts-redirector-action](https://github.com/scientific-python/circleci-artifacts-redirector-action)'
+body = '''
+Add a GitHub Status link directly to a CircleCI artifact.
+'''
+
 {{< /grid >}}
