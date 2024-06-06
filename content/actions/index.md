@@ -55,4 +55,11 @@ body = '''
 Add a GitHub status link directly to a CircleCI artifact.
 '''
 
+[[item]]
+type = 'card'
+header = '[MeeseeksDev / Lumberbot (App)](https://github.com/scientific-python/MeeseeksDev)'
+body = '''
+A stateless GitHub bot that can backport PRs and perform other repository actions.
+'''
+
 {{< /grid >}}
