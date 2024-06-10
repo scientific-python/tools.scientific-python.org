@@ -45,9 +45,9 @@ Through analytics, to better understand project development and community health
 [[item]]
 type = 'card'
 title = 'For GitHub'
-link = '/actions'
+link = '/github'
 body = '''
-GitHub Actions for automating various aspects of project development.
+GitHub Actions and bots for automating various aspects of project development.
 '''
 
 {{< /grid >}}

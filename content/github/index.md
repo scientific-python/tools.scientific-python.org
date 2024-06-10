@@ -1,6 +1,8 @@
 ---
-title: "GitHub Actions"
+title: Github Actions and Bots
 ---
+
+## Github Actions
 
 The following GitHub actions provide workflows that simplify various developer tasks.
 
@@ -54,6 +56,14 @@ header = '[circleci-artifacts-redirector-action](https://github.com/scientific-p
 body = '''
 Add a GitHub status link directly to a CircleCI artifact.
 '''
+
+{{< /grid >}}
+
+## Bots
+
+The following bots for GitHub provide workflows that simplify various developer tasks.
+
+{{< grid columns="1 2 2 3" >}}
 
 [[item]]
 type = 'card'
