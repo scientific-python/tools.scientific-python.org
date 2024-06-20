@@ -6,9 +6,9 @@ title: "Analytics"
 
 [[item]]
 type = 'card'
-header = '[devstats](https://github.com/scientific-python/devstats)'
+header = '[devstats.scientific-python.org](https://devstats.scientific-python.org)'
 body = '''
-Generate developer statistics for a specified project.
+Generate developer statistics for a specified project using the [devstats](https://github.com/scientific-python/devstats) package.
 '''
 
 [[item]]
