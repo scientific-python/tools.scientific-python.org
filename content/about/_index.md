@@ -18,3 +18,12 @@ with particular focus on increased participation by people who identify with gro
 underrepresented in STEM and the open source scientific Python community.
 
 Community members must adhere to our [code of conduct](https://scientific-python.org/code_of_conduct/).
+
+## People
+
+For more information, see our
+[governance and decision making process](/about/governance).
+
+### Tools / Service Steering Committee
+
+{{< grid file="tools-team.toml" columns="2 3 4 5" />}}
