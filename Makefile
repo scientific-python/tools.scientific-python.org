@@ -18,6 +18,21 @@ themes/scientific-python-hugo-theme:
 
 themes: themes/scientific-python-hugo-theme
 
+TEAMS_DIR = content/about
+TEAMS = tools-team
+TEAMS_QUERY = python themes/scientific-python-hugo-theme/tools/team_query.py
+
+$(TEAMS_DIR)/%.toml:
+	$(TEAMS_QUERY) --org scientific-python --team "$*"  >  $(TEAMS_DIR)/$*.toml
+
+teams-clean:
+	for team in $(TEAMS); do \
+	  rm -f $(TEAMS_DIR)/$${team}.toml ;\
+	done
+
+teams: ## generates team gallery pages
+teams: | teams-clean $(patsubst %,$(TEAMS_DIR)/%.toml,$(TEAMS))
+
 html: ## Build site in `./public`
 html: themes
 	hugo
