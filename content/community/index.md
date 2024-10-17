@@ -9,7 +9,7 @@ type = 'card'
 header = '[yaml2ics](https://github.com/scientific-python/yaml2ics)'
 body = '''
 Convert plain-text descriptions of calendar events into ICS files that can be loaded into Google Calendar etc.
-Used to host the Scientific Python [community calendars](https://scientific-python.org/calendar).
+Used to host the Scientific Python [community calendars](https://scientific-python.org/calendars).
 '''
 
 [[item]]
