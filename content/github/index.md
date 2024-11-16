@@ -57,6 +57,13 @@ body = '''
 Add a GitHub status link directly to a CircleCI artifact.
 '''
 
+[[item]]
+type = 'card'
+header = '[devstats-query-action](https://github.com/scientific-python/devstats-query--action)'
+body = '''
+Download devstats for one or more GitHub repositories as an artifact.
+'''
+
 {{< /grid >}}
 
 ## Bots
