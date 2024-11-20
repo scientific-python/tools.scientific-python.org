@@ -8,7 +8,9 @@ title: "Analytics"
 type = 'card'
 header = '[devstats.scientific-python.org](https://devstats.scientific-python.org)'
 body = '''
-Generate developer statistics for a specified project using the [devstats](https://github.com/scientific-python/devstats) package.
+We generate developer statistics for various core packages using the [devstats](https://github.com/scientific-python/devstats) tool.
+[Data releases](https://github.com/scientific-python/devstats-data/releases) are made weekly.
+
 '''
 
 [[item]]
