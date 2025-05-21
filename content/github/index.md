@@ -10,7 +10,7 @@ The following GitHub actions provide workflows that simplify various developer t
 
 [[item]]
 type = 'card'
-header = '[Upload Nightly Action](https://github.com/scientific-python/upload-nightly-action)'
+header = '[upload-nightly-action](https://github.com/scientific-python/upload-nightly-action)'
 body = '''
 Uploads nightly builds to the [scientific-python conda channel](https://anaconda.org/scientific-python-nightly-wheels) as described in [SPEC4](https://scientific-python.org/specs/spec-0004/).
 '''
