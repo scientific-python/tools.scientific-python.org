@@ -39,6 +39,13 @@ A framework for building check'''
 
 [[item]]
 type = 'card'
+header = '[docstub](https://github.com/scientific-python/docstub/)'
+body = '''
+A tool for generating Python stub files from docstrings.
+'''
+
+[[item]]
+type = 'card'
 header = '[changelist](https://github.com/scientific-python/changelist/)'
 body = '''
 A tool for automating release notes.
