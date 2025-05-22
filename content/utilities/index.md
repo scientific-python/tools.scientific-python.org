@@ -9,7 +9,7 @@ Also see to the [Scientific Python Developer Guide](https://learn.scientific-pyt
 
 [[item]]
 type = 'card'
-header = '[lazy_loader](https://github.com/scientific-python/lazy_loader/)'
+header = '[lazy-loader](https://github.com/scientific-python/lazy-loader/)'
 body = '''
 Implements lazy loading as described in [SPEC1](https://scientific-python.org/specs/spec-0001/).
 '''
@@ -35,7 +35,7 @@ type = 'card'
 header = '[repo-review](https://github.com/scientific-python/repo-review)'
 body = '''
 A framework for building checks designed to check to see if a repository follows guideline.
-A framework for building check'''
+'''
 
 [[item]]
 type = 'card'
