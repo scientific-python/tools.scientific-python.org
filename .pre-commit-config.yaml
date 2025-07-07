@@ -36,7 +36,7 @@ repos:
       - id: blacken-docs
 
   - repo: https://github.com/asottile/pyupgrade
-    rev: 37bfa06d791fd38fb4e54910b36a2ff57641b074  # frozen: v3.20.0
+    rev: 37bfa06d791fd38fb4e54910b36a2ff57641b074 # frozen: v3.20.0
     hooks:
       - id: pyupgrade
         args: [--py38-plus]
