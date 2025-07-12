@@ -64,6 +64,13 @@ body = '''
 Download devstats for one or more GitHub repositories as an artifact.
 '''
 
+[[item]]
+type = 'card'
+header = '[issue-from-pytest-log-action](https://github.com/scientific-python/issue-from-pytest-log-action)'
+body = '''
+Create an issue for failed tests from a ``pytest-reportlog`` file or update an existing one if it already exists.
+'''
+
 {{< /grid >}}
 
 ## Bots
