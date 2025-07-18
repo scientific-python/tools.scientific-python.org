@@ -18,7 +18,7 @@ Implements lazy loading as described in [SPEC1](https://scientific-python.org/sp
 type = 'card'
 header = '[spin](https://github.com/scientific-python/spin)'
 body = '''
-**S**cientific **P**ython **D**eveloper **I**ncantations: an extendible tool that
+**S**cientific **P**ython **IN**cantations: an extendible tool that
 provides uniform aliases for build tasks across the ecosystem (`spin build`, `spin docs`, etc.).
 '''
 
