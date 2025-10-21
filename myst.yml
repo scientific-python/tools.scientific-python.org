@@ -2,12 +2,10 @@
 version: 1
 project:
   id: ee007168-b9a5-4dba-8823-1639a4aeb956
-  title: Hello Landing Pages
   abbreviations:
     CSS: Cascading Style Sheet
   toc:
     - file: content/_index.md
-    - file: content/footer.md
     - title: About
       children:
         - file: content/about/governance.md
@@ -25,14 +23,13 @@ project:
     - title: Utilities
       children:
         - file: content/utilities/index.md
- 
 
 site:
   template: book-theme
   title: Scientific Python Tools and Services
   options:
-    favicon: favicon.ico
-    logo: site_logo.png
+    favicon: ./static/images/favicon.ico
+    logo: ./static/images/logo.svg
     logo_text: Scientific Python Tools and Services
     style: ./assets/css/custom.css
 

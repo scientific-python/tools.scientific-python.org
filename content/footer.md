@@ -14,14 +14,12 @@
 
 ::::{div}
 
-# Landing Pages
-
-```{image} https://jupyterbook.org/en/stable/_images/logo-square.svg
-:width: 50px
+```{image} ./static/images/logo.svg
+:width: 60px
 :align: left
 ```
 
-This is a description of our project. And a [link to its homepage](https://github.com/jupyter-book/example-landing-pages).
+Community-driven and community-owned initiative dedicated to building a robust, sustainable ecosystem for statistical software in Python.
 ::::
 
 <!-- Spacer between project description and links columns -->
@@ -39,20 +37,7 @@ This is a description of our project. And a [link to its homepage](https://githu
 
 :::{div}
 
-- [About](https://mystmd.org/overview/ecosystem)
-- [Guide](https://mystmd.org/guide)
-- [Sandbox](https://mystmd.org/sandbox)
-  :::
-
-:::{div}
-
-- A second column!
-- With multiple entries
-  :::
-
-:::{div}
-
-- And what about a third
+- [About](/about)
   :::
 
 ::::
