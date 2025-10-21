@@ -1,0 +1,40 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: ee007168-b9a5-4dba-8823-1639a4aeb956
+  title: Hello Landing Pages
+  abbreviations:
+    CSS: Cascading Style Sheet
+  toc:
+    - file: content/_index.md
+    - file: content/footer.md
+    - title: About
+      children:
+        - file: content/about/governance.md
+        - file: content/about/_index.md
+        - file: content/about/roadmap.md
+    - title: Analytics
+      children:
+        - file: content/analytics/index.md
+    - title: Community
+      children:
+        - file: content/community/index.md
+    - title: Github
+      children:
+        - file: content/github/index.md
+    - title: Utilities
+      children:
+        - file: content/utilities/index.md
+ 
+
+site:
+  template: book-theme
+  title: Scientific Python Tools and Services
+  options:
+    favicon: favicon.ico
+    logo: site_logo.png
+    logo_text: Scientific Python Tools and Services
+    style: ./assets/css/custom.css
+
+  parts:
+    footer: ./content/footer.md
