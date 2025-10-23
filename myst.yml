@@ -11,18 +11,10 @@ project:
         - file: content/about/governance.md
         - file: content/about/_index.md
         - file: content/about/roadmap.md
-    - title: Analytics
-      children:
-        - file: content/analytics/index.md
-    - title: Community
-      children:
-        - file: content/community/index.md
-    - title: Github
-      children:
-        - file: content/github/index.md
-    - title: Utilities
-      children:
-        - file: content/utilities/index.md
+    - file: content/analytics.md
+    - file: content/community.md
+    - file: content/github.md
+    - file: content/utilities.md
 
 site:
   template: book-theme
