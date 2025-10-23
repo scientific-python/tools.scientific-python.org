@@ -14,7 +14,7 @@
 
 ::::{div}
 
-```{image} ./static/images/logo.svg
+```{image} ./logo.svg
 :width: 60px
 :align: left
 ```

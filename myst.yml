@@ -28,10 +28,10 @@ site:
   template: book-theme
   title: Scientific Python Tools and Services
   options:
-    favicon: ./static/images/favicon.ico
-    logo: ./static/images/logo.svg
+    favicon: ./content/favicon.ico
+    logo: ./content/logo.svg
     logo_text: Scientific Python Tools and Services
-    style: ./assets/css/custom.css
+    style: ./content/custom.css
 
   parts:
     footer: ./content/footer.md
