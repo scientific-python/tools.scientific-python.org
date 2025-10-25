@@ -15,10 +15,6 @@ jobs:
           keys:
             - node-cache-v1
 
-      - restore_cache:
-          keys:
-            - pip-cache-{{ checksum "requirements.txt" }}
-
       - run:
           name: Install Node.js
           command: |
@@ -30,21 +26,10 @@ jobs:
           command: |
             npm install mystmd
 
-      - run:
-          name: Install Python dependencies
-          command: |
-            python -m pip install --upgrade pip
-            if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-
       - save_cache:
           key: node-cache-v1
           paths:
             - node_modules
-
-      - save_cache:
-          key: pip-cache-{{ checksum "requirements.txt" }}
-          paths:
-            - ~/.cache/pip
 
       - run:
           name: Build site
