@@ -20,4 +20,3 @@ jobs:
           circleci-jobs: build-site
           job-title: "--> site preview <--"
           domain: circle.scientific-python.dev
-

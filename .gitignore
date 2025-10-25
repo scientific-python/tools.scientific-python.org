@@ -7,3 +7,5 @@
 
 # MyST build artifacts
 _build
+
+node_modules
