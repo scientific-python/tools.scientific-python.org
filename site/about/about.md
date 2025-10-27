@@ -26,7 +26,7 @@ For more information, see our
 
 ### Tools / Service Steering Committee
 
-::::{grid} 2 3 4 5
+::::{grid} 2 2 3 3
 :::{include} team.md
 :::
 ::::

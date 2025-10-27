@@ -17,13 +17,11 @@ team: | team-clean $(TEAM_DIR)/team.md
 
 html: ## Build site in `./site/_build`
 html:
-	cd site;
-	myst build --html;
+	(cd site; myst build --html;)
 
 serve: ## Serve site, typically on http://localhost:3000
 serve:
-	cd site;
-	myst start;
+	(cd site; myst start;)
 
 clean: ## Remove built files
 clean:
