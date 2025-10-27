@@ -73,3 +73,10 @@ body {
   font-size: 110%;
   color: revert;
 }
+
+/*
+ * Hide the "Download" icon in the frontmatter.
+ */
+#skip-to-frontmatter > .items-center {
+  display: none;
+}

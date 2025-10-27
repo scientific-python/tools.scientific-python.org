@@ -1,10 +1,7 @@
 ---
-site:
-  hide_outline: true
-  hide_footer_links: true
+title: "Community Tools & Services"
 ---
 
-# Community Tools & Services
 
 We maintain a collection of tools that help projects across the ecosystem.
 We also offer a small selection of hosted services.

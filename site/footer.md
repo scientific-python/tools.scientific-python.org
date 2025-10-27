@@ -10,25 +10,12 @@
 :::::{grid} 3 3 5 5
 :class: outer-grid col-screen
 
-<!-- Project description -->
-
-::::{div}
-
-```{image} ./logo.svg
+::::{image} ./logo.svg
 :width: 60px
 :align: left
-```
-
-Community-driven and community-owned initiative dedicated to building a robust, sustainable ecosystem for statistical software in Python.
-::::
-
-<!-- Spacer between project description and links columns -->
-
-::::{div}
 ::::
 
 <!-- Link columns -->
-
 % This a _second_ grid embedded within the first one, to create nicer
 % responsive design experience. This grid will have a single column on narrow screens,
 % and fan out into three columns on wide screens. However, it always remains within
@@ -36,9 +23,20 @@ Community-driven and community-owned initiative dedicated to building a robust, 
 ::::{grid} 1 1 3 3
 
 :::{div}
-
 - [About](/about)
-  :::
+- [Roadmap](/roadmap)
+- [Code of Conduct](https://scientific-python.org/code_of_conduct/)
+:::
+
+:::{div}
+- [SPECs](https://scientific-python.org/specs/)
+- [Summits](https://scientific-python.org/summits/)
+- [Calendars](https://scientific-python.org/calendars/)
+:::
+
+:::{div}
+- [Press Kit](https://scientific-python.org/press-kit/)
+:::
 
 ::::
 

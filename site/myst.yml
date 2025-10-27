@@ -20,6 +20,10 @@ site:
   template: book-theme
   title: Scientific Python Tools and Services
   options:
+    hide_outline: true
+    hide_toc: true
+    #hide_title_block: true
+    hide_footer_links: true
     favicon: favicon.ico
     logo: logo.svg
     logo_text: Scientific Python Tools and Services
