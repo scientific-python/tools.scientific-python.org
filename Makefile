@@ -7,7 +7,7 @@ help:
 TEAM_DIR = site/about
 
 $(TEAM_DIR)/team.md:
-	$(TEAM_DIR)/team-query --org scientific-python --team "tools-team"  >  $(TEAM_DIR)/team.md
+	$(TEAM_DIR)/team_query.py --org scientific-python --team "tools-team"  >  $(TEAM_DIR)/team.md
 
 team-clean:
 	rm -f $(TEAM_DIR)/team.md ;\
