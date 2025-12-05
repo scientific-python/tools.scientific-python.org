@@ -22,7 +22,7 @@ Community members must adhere to our [code of conduct](https://scientific-python
 ## People
 
 For more information, see our
-[governance and decision making process](/governance).
+[governance and decision making process](governance).
 
 ### Tools / Service Steering Committee
 
