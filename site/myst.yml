@@ -26,6 +26,7 @@ site:
     hide_footer_links: true
     favicon: favicon.ico
     logo: logo.svg
+    logo_dark: logo.svg
     logo_text: Scientific Python Tools and Services
     style: site.css
 
