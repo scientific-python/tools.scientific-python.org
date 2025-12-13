@@ -18,6 +18,7 @@ project:
 
 site:
   template: book-theme
+  #template: ../../jupyter-book/myst-theme/.deploy/book/template.yml
   title: Scientific Python Tools and Services
   options:
     hide_outline: true

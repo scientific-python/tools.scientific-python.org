@@ -6,7 +6,7 @@ title: "Community Tools & Services"
 We maintain a collection of tools that help projects across the ecosystem.
 We also offer a small selection of hosted services.
 
-::::{grid} 1 1 2 2
+::::{grid} 1 1 3 5
 
 :::{card}
 :header: **Web**

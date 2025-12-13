@@ -23,8 +23,8 @@
 ::::{grid} 1 1 3 3
 
 :::{div}
-- [About](about)
-- [Roadmap](roadmap)
+- [About](/about)
+- [Roadmap](/roadmap)
 - [Code of Conduct](https://scientific-python.org/code_of_conduct/)
 :::
 

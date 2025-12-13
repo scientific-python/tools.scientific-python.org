@@ -8,6 +8,9 @@ body {
    * doesn't push the footer offscreen.
    */
   min-height: 0vh;
+  grid-template-columns: 1fr;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 footer {
