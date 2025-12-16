@@ -71,3 +71,12 @@ footer {
 #skip-to-frontmatter > .items-center {
   display: none;
 }
+
+/*
+ * Hide top nav "hamburger menu" button that shows up at smaller screen widths
+ * to open primary sidebar.  This should probably be implemented in myst-theme,
+ * switching on `hide_toc` config.
+ */
+.myst-top-nav-menu-button {
+    display: none;
+}
