@@ -4,15 +4,6 @@ project:
   id: ee007168-b9a5-4dba-8823-1639a4aeb956
   abbreviations:
     CSS: Cascading Style Sheet
-  toc:
-    - file: index.md
-    - file: about.md
-    - file: governance.md
-    - file: roadmap.md
-    - file: analytics.md
-    - file: community.md
-    - file: github.md
-    - file: utilities.md
 
 site:
   template: book-theme
