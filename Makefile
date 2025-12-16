@@ -1,19 +1,17 @@
-.PHONY: help themes html serve clean
+.PHONY: help html serve clean
 .DEFAULT_GOAL := help
 
 help:
 	@grep ": ##" Makefile | grep -v grep | tr -d '#'
 
-TEAM_DIR = site/about
-
-$(TEAM_DIR)/team.md:
-	$(TEAM_DIR)/team_query.py --org scientific-python --team "tools-team"  >  $(TEAM_DIR)/team.md
+team.md:
+	team_query.py --org scientific-python --team "tools-team"  >  team.md
 
 team-clean:
-	rm -f $(TEAM_DIR)/team.md ;\
+	rm -f team.md
 
 team: ## generates team gallery
-team: | team-clean $(TEAM_DIR)/team.md
+team: | team-clean team.md
 
 html: ## Build site in `./site/_build`
 html:

@@ -6,11 +6,9 @@ project:
     CSS: Cascading Style Sheet
   toc:
     - file: index.md
-    - title: About
-      children:
-        - file: about/about.md
-        - file: about/governance.md
-        - file: about/roadmap.md
+    - file: about.md
+    - file: governance.md
+    - file: roadmap.md
     - file: analytics.md
     - file: community.md
     - file: github.md
