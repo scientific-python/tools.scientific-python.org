@@ -4,6 +4,8 @@ project:
   id: ee007168-b9a5-4dba-8823-1639a4aeb956
   abbreviations:
     CSS: Cascading Style Sheet
+  plugins:
+    - scienceicons.mjs
 
 site:
   template: book-theme
@@ -12,7 +14,6 @@ site:
   options:
     hide_outline: true
     hide_toc: true
-    #hide_title_block: true
     hide_footer_links: true
     favicon: favicon.ico
     logo: logo.svg

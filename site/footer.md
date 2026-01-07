@@ -8,7 +8,7 @@
 % but the formatting column sizes are defined manually in css/footer.css
 % see the `grid-template-columns` line.
 :::::{grid} 3 3 5 5
-:class: outer-grid col-screen
+:class: footer-grid
 
 ::::{image} ./logo.svg
 :width: 60px
@@ -38,6 +38,25 @@
 - [Press Kit](https://scientific-python.org/press-kit/)
 :::
 
+::::
+
+::::{grid} 5 5 5 5
+:class: social-links
+:::{div}
+[{scienceicon}`github`](http://github.com)
+:::
+:::{div}
+[{scienceicon}`youtube`](http://youtube.com)
+:::
+:::{div}
+[{scienceicon}`mastodon`](http://foo.bar)
+:::
+:::{div}
+[{scienceicon}`discourse`](http://foo.bar)
+:::
+:::{div}
+[{scienceicon}`discord`](http://foo.bar)
+:::
 ::::
 
 :::::

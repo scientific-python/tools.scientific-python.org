@@ -21,15 +21,15 @@ footer {
   top: 100vh;
   background: #013243;
   color: white;
-  padding-left: 3.5rem;
-  padding-right: 3.5rem;
+  padding-left: 15%;
+  padding-right: 15%;
 
   /* Outer content grid */
-  & .outer-grid {
+  & .footer-grid {
     /* spacer, project description, spacer, link columns, spacer */
-    grid-template-columns: 3fr 3fr 4fr;
     align-items: center;
     margin-bottom: 0rem;
+    grid-template-columns: 1fr 3fr 1fr;
 
     & li {
       list-style: none;
@@ -58,6 +58,13 @@ footer {
     font-size: 1.25rem;
     font-weight: bold;
   }
+
+  & .social-links {
+    & svg {
+      width: 2em;
+      height: 2em;
+    }
+  }
 }
 
 .myst-card-header {
@@ -74,8 +81,7 @@ footer {
 
 /*
  * Hide top nav "hamburger menu" button that shows up at smaller screen widths
- * to open primary sidebar.  This should probably be implemented in myst-theme,
- * switching on `hide_toc` config.
+ * to open primary sidebar.
  */
 .myst-top-nav-menu-button {
     display: none;
