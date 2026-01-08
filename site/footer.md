@@ -7,12 +7,13 @@
 % Here we use `grid` to add a basic grid structure to the HTML,
 % but the formatting column sizes are defined manually in css/footer.css
 % see the `grid-template-columns` line.
-:::::{grid} 3 3 5 5
+:::::{grid} 1 3 5 5
 :class: footer-grid
 
-::::{image} ./logo.svg
-:width: 60px
-:align: left
+::::{div}
+:class: logo
+:::{image} ./logo.svg
+:::
 ::::
 
 <!-- Link columns -->
@@ -21,6 +22,7 @@
 % and fan out into three columns on wide screens. However, it always remains within
 % its parent grid column.
 ::::{grid} 1 1 3 3
+:class: center-links
 
 :::{div}
 - [About](/about)
@@ -40,23 +42,19 @@
 
 ::::
 
-::::{grid} 5 5 5 5
+::::{div}
 :class: social-links
-:::{div}
 [{scienceicon}`github`](http://github.com)
-:::
-:::{div}
 [{scienceicon}`youtube`](http://youtube.com)
-:::
-:::{div}
 [{scienceicon}`mastodon`](http://foo.bar)
-:::
-:::{div}
 [{scienceicon}`discourse`](http://foo.bar)
-:::
-:::{div}
 [{scienceicon}`discord`](http://foo.bar)
+
+:::{div}
+:class: copyright
+© 2026.  All rights reserved.
 :::
+
 ::::
 
 :::::

@@ -24,45 +24,67 @@ footer {
   padding-left: 15%;
   padding-right: 15%;
 
+  & li {
+    list-style: none;
+  }
+
   /* Outer content grid */
   & .footer-grid {
     /* spacer, project description, spacer, link columns, spacer */
     align-items: center;
     margin-bottom: 0rem;
     grid-template-columns: 1fr 3fr 1fr;
-
-    & li {
-      list-style: none;
-    }
   }
 
   @media (max-width: 640px) {
-    & .outer-grid {
+    & .footer-grid {
       grid-template-columns: 1fr;
       justify-items: start;
     }
   }
 
-  /* Heading colours */
-  & a,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    color: white;
+  & .logo {
+    width: 100%;
+    padding-left: 20px;
+
+    & img {
+      width: 65px;
+      min-width: 65px;
+    }
   }
 
-  & h1 {
-    font-size: 1.25rem;
-    font-weight: bold;
+  & .center-links {
+    width: 100%;
+
+    & div {
+      min-width: 160px;
+    }
+    & ul {
+      padding-left: 10px;
+    }
+  }
+  @media (max-width: 640px) {
+    & .center-links {
+      left: -10px;
+      text-align: center;
+    }
   }
 
   & .social-links {
+    width: 100%;
+    min-width: 250px;
+    text-align: center;
+
+    & a {
+      margin-left: 14px;
+    }
     & svg {
       width: 2em;
       height: 2em;
+    }
+    & .copyright {
+      margin-left: 18px;
+      font-size: 80%;
     }
   }
 }
