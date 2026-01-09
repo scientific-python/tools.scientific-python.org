@@ -9,8 +9,9 @@ project:
 
 site:
   template: book-theme
-  #template: ../../jupyter-book/myst-theme/.deploy/book/template.yml
+  template: ../../jupyter-book/myst-theme/.deploy/book/template.yml
   title: Scientific Python Tools and Services
+
   options:
     hide_outline: true
     hide_toc: true
@@ -20,6 +21,16 @@ site:
     logo_dark: logo.svg
     logo_text: Scientific Python Tools and Services
     style: site.css
+
+  nav:
+    - title: Home
+      url: https://scientific-python.org/
+    - title: Blog
+      url: https://blog.scientific-python.org/
+    - title: Learn
+      url: https://learn.scientific-python.org/
+    - title: Tools
+      url: /index
 
   parts:
     footer: footer.md
