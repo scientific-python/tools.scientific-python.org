@@ -44,11 +44,11 @@
 
 ::::{div}
 :class: social-links
-[{scienceicon}`github`](http://github.com)
-[{scienceicon}`youtube`](http://youtube.com)
-[{scienceicon}`mastodon`](http://foo.bar)
-[{scienceicon}`discourse`](http://foo.bar)
-[{scienceicon}`discord`](http://foo.bar)
+[{scienceicon}`github`](http://github.com/scientific-python/)
+[{scienceicon}`youtube`](https://www.youtube.com/c/ScientificPython-org)
+[{scienceicon}`mastodon`](https://fosstodon.org/@scientific_python)
+[{scienceicon}`discourse`](https://discuss.scientific-python.org/)
+[{scienceicon}`discord`](https://discord.com/invite/vur45CbwMz)
 
 :::{div}
 :class: copyright
