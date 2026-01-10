@@ -1,46 +1,26 @@
-.PHONY: help themes html serve clean
+.PHONY: help html serve clean
 .DEFAULT_GOAL := help
 
 help:
 	@grep ": ##" Makefile | grep -v grep | tr -d '#'
 
-themes/scientific-python-hugo-theme:
-	@if [ ! -d "$<" ]; then \
-	  echo "*** ERROR: missing theme" ; \
-	  echo ; \
-	  echo "It looks as though you are missing the themes directory."; \
-	  echo "You need to add the scientific-python-hugo-theme as a submodule."; \
-	  echo ; \
-	  echo "Please see https://theme.scientific-python.org/user_guide/getstarted/"; \
-	  echo ; \
-	  exit 1; \
-	fi
+team.md:
+	team_query.py --org scientific-python --team "tools-team"  >  team.md
 
-themes: themes/scientific-python-hugo-theme
+team-clean:
+	rm -f team.md
 
-TEAMS_DIR = content/about
-TEAMS = tools-team
-TEAMS_QUERY = python themes/scientific-python-hugo-theme/tools/team_query.py
+team: ## generates team gallery
+team: | team-clean team.md
 
-$(TEAMS_DIR)/%.toml:
-	$(TEAMS_QUERY) --org scientific-python --team "$*"  >  $(TEAMS_DIR)/$*.toml
+html: ## Build site in `./site/_build`
+html:
+	(cd site; myst build --html;)
 
-teams-clean:
-	for team in $(TEAMS); do \
-	  rm -f $(TEAMS_DIR)/$${team}.toml ;\
-	done
-
-teams: ## generates team gallery pages
-teams: | teams-clean $(patsubst %,$(TEAMS_DIR)/%.toml,$(TEAMS))
-
-html: ## Build site in `./public`
-html: themes
-	hugo
-
-serve: ## Serve site, typically on http://localhost:1313
-serve: themes
-	@hugo --printI18nWarnings server
+serve: ## Serve site, typically on http://localhost:3000
+serve:
+	(cd site; myst start;)
 
 clean: ## Remove built files
 clean:
-	rm -rf public
+	rm -rf site/_build

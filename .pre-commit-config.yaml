@@ -25,22 +25,6 @@ repos:
         files: \.(css|md|yml|yaml)
         args: [--prose-wrap=preserve]
 
-  - repo: https://github.com/psf/black-pre-commit-mirror
-    rev: 831207fd435b47aeffdf6af853097e64322b4d44 # frozen: 25.12.0
-    hooks:
-      - id: black
-
-  - repo: https://github.com/asottile/blacken-docs
-    rev: dda8db18cfc68df532abf33b185ecd12d5b7b326 # frozen: 1.20.0
-    hooks:
-      - id: blacken-docs
-
-  - repo: https://github.com/asottile/pyupgrade
-    rev: 75992aaa40730136014f34227e0135f63fc951b4 # frozen: v3.21.2
-    hooks:
-      - id: pyupgrade
-        args: [--py38-plus]
-
   - repo: https://github.com/codespell-project/codespell
     rev: "63c8f8312b7559622c0d82815639671ae42132ac" # frozen: v2.4.1
     hooks:

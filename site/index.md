@@ -1,56 +1,49 @@
 ---
-title:
+title: "Community Tools & Services"
 ---
 
-# Community Tools & Services
 
 We maintain a collection of tools that help projects across the ecosystem.
 We also offer a small selection of hosted services.
 
-{{< grid columns="1 1 1 5" >}}
+::::{grid} 1 1 3 5
 
-[[item]]
-type = 'card'
-title = 'For Web'
-link = 'https://theme.scientific-python.org'
-body = '''
+:::{card}
+:header: **Web**
+:link: https://theme.scientific-python.org
+
 A [Hugo](https://gohugo.io/) theme used by [NumPy](https://numpy.org/), [SciPy](https://scipy.org/),
 [Scientific Python](https://scientific-python.org/), and other sites.
-'''
+:::
 
-[[item]]
-type = 'card'
-title = 'For Development'
-link = '/utilities'
-body = '''
+:::{card}
+:header: **Development**
+:link: /utilities
+
 Python developer tools used by packages across the ecosystem.
-'''
+:::
 
-[[item]]
-type = 'card'
-title = 'For Organization'
-link = '/community'
-body = '''
+:::{card}
+:header: **Organization**
+:link: /community
 Calendar, forum, and other services for organizing the community.
-'''
+:::
 
-[[item]]
-type = 'card'
-title = 'For Insight'
-link = '/analytics'
-body = '''
+::: {card}
+:header: **Insight**
+:link: /analytics
+
 Through analytics, to better understand project development and community health.
-'''
+:::
 
-[[item]]
-type = 'card'
-title = 'For GitHub'
-link = '/github'
-body = '''
+:::{card}
+:header: **GitHub**
+:link: /github
+
 GitHub Actions and bots for automating various aspects of project development.
-'''
+:::
 
-{{< /grid >}}
+::::
 
 ### New tools
 

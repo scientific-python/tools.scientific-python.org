@@ -1,0 +1,35 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: ee007168-b9a5-4dba-8823-1639a4aeb956
+  abbreviations:
+    CSS: Cascading Style Sheet
+  plugins:
+    - scienceicons.mjs
+
+site:
+  template: book-theme
+  title: Scientific Python Tools and Services
+
+  options:
+    hide_outline: true
+    hide_toc: true
+    hide_footer_links: true
+    favicon: favicon.ico
+    logo: logo.svg
+    logo_dark: logo.svg
+    logo_text: Scientific Python Tools and Services
+    style: site.css
+
+  nav:
+    - title: Home
+      url: https://scientific-python.org/
+    - title: Blog
+      url: https://blog.scientific-python.org/
+    - title: Learn
+      url: https://learn.scientific-python.org/
+    - title: Tools
+      url: /index
+
+  parts:
+    footer: footer.md

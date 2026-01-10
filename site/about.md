@@ -22,8 +22,11 @@ Community members must adhere to our [code of conduct](https://scientific-python
 ## People
 
 For more information, see our
-[governance and decision making process](/about/governance).
+[governance and decision making process](governance).
 
 ### Tools / Service Steering Committee
 
-{{< grid file="tools-team.toml" columns="2 3 4 5" />}}
+::::{grid} 2 2 3 5
+:::{include} team.md
+:::
+::::
