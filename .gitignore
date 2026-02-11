@@ -169,5 +169,5 @@ _build
 # Vim swap files
 *.swp
 
-# Javascript envieonment
+# Javascript environment
 node_modules
