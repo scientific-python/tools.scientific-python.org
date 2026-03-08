@@ -4,9 +4,18 @@ This repository hosts the source code for the website https://tools.scientific-p
 
 The site is implemented with the mystmd book template.
 
-To run locally:
+### Preview Locally
 
 ```
 cd site
 myst start
+```
+
+### Satisfy Prettier
+
+You may have some whitespace that disagrees with the `prettier` pre-commit hook.
+This will auto-fix those spots:
+
+```
+pre-commit run --all
 ```
