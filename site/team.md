@@ -39,4 +39,3 @@
 :link: https://github.com/matthewfeickert
 ![Matthew Feickert](https://avatars.githubusercontent.com/u/5142394?u=310e7999b329801a47ebc999c2243fc9f2b32434&v=4)
 :::
-

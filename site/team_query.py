@@ -79,4 +79,3 @@ for m in members:
     members_list.append(member_template.substitute(**m))
 
 print("\n".join(members_list).rstrip())
-

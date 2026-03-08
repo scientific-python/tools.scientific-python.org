@@ -17,6 +17,7 @@
 ::::
 
 <!-- Link columns -->
+
 % This a _second_ grid embedded within the first one, to create nicer
 % responsive design experience. This grid will have a single column on narrow screens,
 % and fan out into three columns on wide screens. However, it always remains within
@@ -25,20 +26,23 @@
 :class: center-links
 
 :::{div}
+
 - [About](/about)
 - [Roadmap](/roadmap)
 - [Code of Conduct](https://scientific-python.org/code_of_conduct/)
-:::
+  :::
 
 :::{div}
+
 - [SPECs](https://scientific-python.org/specs/)
 - [Summits](https://scientific-python.org/summits/)
 - [Calendars](https://scientific-python.org/calendars/)
-:::
+  :::
 
 :::{div}
+
 - [Press Kit](https://scientific-python.org/press-kit/)
-:::
+  :::
 
 ::::
 
@@ -52,7 +56,7 @@
 
 :::{div}
 :class: copyright
-© 2026.  All rights reserved.
+© 2026. All rights reserved.
 :::
 
 ::::
