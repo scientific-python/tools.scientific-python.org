@@ -1,0 +1,51 @@
+version: 2.1
+
+jobs:
+  build-site:
+    docker:
+      - image: cimg/python:3.13
+    environment:
+      SITE_SRC: site
+      SITE_PATH: ${SITE_SRC}/_build/html
+
+    steps:
+      - checkout
+
+      - restore_cache:
+          keys:
+            - node-cache-v1
+
+      - run:
+          name: Install Node.js
+          command: |
+            curl -fsSL https://deb.nodesource.com/setup_24.x | sudo -E bash -
+            sudo apt-get install -y nodejs
+
+      - run:
+          name: Install mystmd
+          command: |
+            npm install mystmd
+
+      - save_cache:
+          key: node-cache-v1
+          paths:
+            - node_modules
+
+      - run:
+          name: Build site
+          command: |
+            export BASE_URL="/output/job/$CIRCLE_WORKFLOW_JOB_ID/artifacts/0/${SITE_PATH}"
+
+            (cd ${SITE_SRC} && npx myst build --html)
+
+            ## Temporary hack to remove unused thebe JS
+            rm ${SITE_PATH}/*thebe*.js
+
+      - store_artifacts:
+          path: ${SITE_PATH}
+
+workflows:
+  version: 2
+  build-and-site:
+    jobs:
+      - build-site
