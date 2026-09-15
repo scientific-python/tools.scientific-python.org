@@ -11,6 +11,9 @@ params:
   description: "Tools and services for scientific Python developers and packages."
   images:
     - /images/logo.svg
+  fonts:
+    - name: "Lato"
+      weights: [400, 700]
   navbarlogo:
     image: logo.svg
     text: Scientific Python Tools and Services
