@@ -26,7 +26,7 @@ repos:
         args: [--prose-wrap=preserve]
 
   - repo: https://github.com/psf/black-pre-commit-mirror
-    rev: 96ae3e5802f3fe2d551e703e18f0a367d1a81ac2  # frozen: 26.10.0
+    rev: 96ae3e5802f3fe2d551e703e18f0a367d1a81ac2 # frozen: 26.10.0
     hooks:
       - id: black
 
@@ -42,7 +42,7 @@ repos:
         args: [--py38-plus]
 
   - repo: https://github.com/codespell-project/codespell
-    rev: "57b21406f092110c18776e39b0bda50d37c945c8"  # frozen: v2.4.3
+    rev: "57b21406f092110c18776e39b0bda50d37c945c8" # frozen: v2.4.3
     hooks:
       - id: codespell
         args: ["-L", "ist,cant,connexion,multline"]
